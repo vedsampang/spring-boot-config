@@ -1,12 +1,14 @@
+app:
+  name: Sampangs App
+  description: Welcome to ${app.name}
+
 my:
   greeting: Namaste Bro
-  list:
-    values: One, Two, Three
+  list.values: One, Two, Three
 
 db:
-  connection: connection-string-here
+  connection: test-connection-string-here
   host: 127.0.0.1
-  port: 5432
+  port: 5431
 
 management.endpoints.web.exposure.include: "*"
-spring.profiles.active: test
